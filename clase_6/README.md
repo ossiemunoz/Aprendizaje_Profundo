@@ -3,21 +3,26 @@
 ## [Teoria](teoria/RNN.E2.pptx) (powerpoint):
 - Red recurrente básica, ecuaciones.
 - Unfolding de una RNN.
-- RNN en Pytorch y dimensiones.
-- Esquemas de arquitecturas típicas.
-- Encoder - Decoder
+- RNN en Pytorch y dimensiones. ([práctica 1](jupyter_notebooks/RNN_teoria.ipynb)).
+- Back propagation through time (BPTT)
+- Implementación: predicción de serie temporal. ([práctica 2](jupyter_notebooks/RNN_signal_wandb.ipynb)).
+- Encoder - Decoder. ([ver colab](jupyter_notebooks/RNN_enc_dec.ipynb)).
 - Attention.
+
+## Información adicional
 - [Back Propagation Through Time - BPTT](teoria/BPTT_desarrollo.pdf)
 - [Presentación con Attention](teoria/cs224n-2021-lecture07-nmt.pdf)
-- [Pizarra con anotaciones](teoria/Pizarra_RNN.pdf)
 
 ## Notebooks:
 - [RNN_teoria](jupyter_notebooks/RNN_teoria.ipynb) (ejercicios de dimensiones en RNN).
+- [RNN_teoria_resolución](jupyter_notebooks/RNN_teoria_resolución.ipynb) (resolución de los ejercicios de dimensiones en RNN).
+- [RNN_signal_wandb](jupyter_notebooks/RNN_signal_wandb.ipynb) (implementación de RNN para predecir una serie temporal).
+- [RNN_enc_dec](jupyter_notebooks/RNN_enc_dec.ipynb) (implementación de un ENC-DEC para la serie temporal y predición de 10 valores a futuro).
 
 
-## Trabajo práctico:
-Generar una arquitectura de RNN que mejore la performance del MLP para predecir 10 valores a futuro de la serie temporal generada.
-- [RNN_signal](ejercicios/README_practica.md) (trabajo practico RNN para predecir serie tiemporal sintética).
+## Ejercitción para luego de la clase:
+Generar distintas arquitecturas de RNN que mejoren la performance del MLP. Compare la cantidad de parámetros con el MLP y prueve entre la distintas RNN diversos hiperparámetros.
+
 
 ## Bibliografía:
 
