@@ -1,19 +1,10 @@
-# Deep Learning - 2022
+# Deep Learning 2025-2026
 Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para Deep Learning (CEIA - FIUBA)
 
-### Organización del Repositorio
-
-``` 
-    Clase #
-        teoria
-        ejercicios
-        jupyter_notebooks
-        README.md
-```
 
 ### Requerimientos
 * Lenguaje de Programación
-    * Python 3.8
+    * Python 3.11
     * Pip / Conda para instalar librerías
 * Librerías
     * Numpy
