@@ -1,0 +1,5 @@
+Aprendizaje profundo - Martes de 19:00 a 22:00
+- Gerardo Vilzamiza
+- Marcos Maillot
+
+Material: https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/aprendizaje_profundo/tree/ap_202503
